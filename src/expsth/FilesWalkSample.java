@@ -26,7 +26,7 @@ public class FilesWalkSample {
                        catch (IOException e) { throw new UncheckedIOException(e); }
                    })
                 .forEach(System.out::println);
-                ;
+                
         } catch (UncheckedIOException e){
             e.printStackTrace();
         }
