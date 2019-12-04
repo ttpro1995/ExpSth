@@ -18,4 +18,6 @@ public class ExpContainInList {
         System.out.println(intList.contains(10));
         System.out.println(intList.contains(12));
     }
+    
+
 }
